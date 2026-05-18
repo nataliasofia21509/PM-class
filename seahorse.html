@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>seahorse serenity</title>
+  <style>
+body { 
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 200px 3fr 3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header"
+    "nav article"
+    "footer footer";
+}
+
+header { grid-area: header; 
+background-color: rgb(254, 209, 216)}
+
+article { grid-area: article; 
+background-color: rgb(255, 255, 198)}
+
+nav { grid-area: nav; 
+background-color: rgb(206, 235, 255)}
+
+footer { grid-area: footer; 
+background-color: rgb(218, 253, 218)}
+ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+ul li a{
+  color: blanchedalmond;
+  text-decoration:none;
+  background: rgb(255, 187, 187);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 50px;;
+  margin: 10px;;
+  border:2px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 39%);
+  scale: 1px;
+  transition:scale 1s, box-shadow .1.6s, background .1.6s, color .1.6s;
+}
+ul li a:hover{
+  background: rgb(255, 255, 255);
+  color: white;
+  box-shadow: 5px 15px 20px rgb(218, 183, 255);
+  scale:1.2;
+
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <center>
+    <h1>header info here</h1>
+    <img src="#" alt="seahorses are fun" />
+  </header>
+ 
+  <nav>
+    <ul>
+      <link rel="shortcut icon" href="favicon.ico"/>
+     
+
+    
+      <b><li><a href="#">Seahorse Home</a></li></b>
+    <b><li><a href="#">Seahorse News</a></li></b>
+    <b> <li><a href="#">Seahorse Science</a></li></b>
+  <b><li><a href="#">Seahorse Fiction</a></li></b>
+<b> <li><a href="#">Seahorse Fables</a></li></b>
+<b><li><a href="#">Seahorse Songs</a></li></b>
+    </ul>
+  </nav>
+
+  <article>
+    <img src="#" alt="seahorses are fun" />
+    <h1>SEAHORSE FACTS</h1>
+    <h2>Name</h2>
+    <p>The Latin name for seahorse is Hippocampus which means "Horse
+      Caterpillar"</p>
+    <h2>What is a Seahorse</h2>
+    <p>Seahorses are fish. They live in water, breath through gills and have a
+      swim bladder. However they do not have caudal fins and have a long
+      snake-like tail. They also have a neck and a snout that points down.</p>
+    <h2>Eyesight</h2>
+    <p>Seahorses have excellent eyesight and their eyes are able to work
+      independently on either side of their head. This means they can look
+      forwards and backwards at the same time! This is particularly useful as
+      they hunt for food by sight.</p>
+      <link rel="shortcut icon" href="favicon.ico"/>
+    <h2>Snout</h2>
+    <p>Seahorses have long thin snouts enabling them to probe into nooks and
+      crannies for food. When they find food they suck it up through their
+      snouts like a vacuum cleaner. Their snouts can expand if their prey is
+      larger than the snout. They are not able to chew and have to
+      disintegrate the food as they eat it.</p>
+    <h2>Diet</h2>
+    <p>Seahorses eat small crustacea such as Mysis Shrimp. An adult eats 30-50
+      times a day. Seahorse fry (baby seahorses) eat a staggering 3000 pieces
+      of food per day.</p>
+    <h2>Tail<link rel="shortcut icon" href="favicon.ico"/></h2>
+    <p>Seahorses have a prehensile tail. This allows them to grip onto
+      eelgrass and other weeds and prevents them from being washed away by
+      strong currents and waves.</p>
+    <h2>Colour</h2>
+    <p>Seahorses can change colour very quickly and match any surroundings in
+      which it finds itself. They have even been known to turn bright red to
+      match floating debris.</p>
+    <p>Both males and females also change colour during their courtship
+      display.</p>
+    <h2>Body</h2>
+    <p>Unlike most other fish, seahorses have an exoskeleton. Their bodies are
+      made up of hard, external, bony plates that are fused together with a
+      fleshy covering. They do not have scales.</p>
+  </article>
+
+  <footer>
+    <ul>
+      <center>
+      <ins><big>Seahorse Friends</big></ins>
+      <li><a href="http://www.theseahorsetrust.org/seahorse-facts.aspx" target="_blank">The Seahorse Trust</a> 
+      </li>
+      <li><a href="http://www.nationalgeographic.com/animals/fish/group/seahorses/" target="_blank">National
+          Geographic</a> </li>
+      <li><a href="http://seahorse.com/" target="_blank">Seahorse.com</a> </li>
+      <li><a href="http://www.allthesea.com/Seahorses.html" target="_blank">All
+          The Sea</a></li>
+    </ul>
+    <p>&copy; Seahorse Serenity 2025</p>
+  </footer>
+</body>
+
+</html>
